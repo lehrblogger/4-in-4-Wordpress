@@ -1,0 +1,503 @@
+/*   
+Theme Name: Box Set
+Theme URI: http://doingword.com/boxset/
+Description: A simple clean and borderless layout by <a href="http://doingword.com">Paddy Ryan</a>
+Author: Paddy Ryan
+Author URI: http://doingword.com/
+Version: 1.2
+.
+You may edit this theme in part or in full,
+but please keep credits intact, particularly in
+the footer, and re-direct rather than re-disribute.
+
+Full support for this theme, and updates and hacks
+can be found at the supplied THEME URI.
+
+The head image used on default for this theme was obtained from:
+	http://www.2desktop.com/
+with an unknown artist.
+
+Comment structure and icons originally designed by Sebastian Schmieg from:
+	http://www.kingcosmonaut.de/
+on his Wordpress theme, "Blixed".
+
+THIS THEME IS NOT YET STABLE IN INTERNET EXPLORER
+
+
+*/
+
+
+
+.clear {
+clear:both;
+}
+
+.right {
+   float:right;
+   margin-left:10px;
+   margin-bottom:-5px;
+}
+
+.alignright {
+   float:right;
+   margin-left:10px;
+   margin-bottom:-5px;
+}
+
+body {
+	font-family: Verdana, Arial, Helvetica, "sans serif";
+	font-size: 11px;
+	color: #555;
+	background-color: #eee;
+}
+
+
+/* MAIN BODIES
+-------------------------*/
+#container {
+	margin: 0 auto;
+	width: 650px;
+	background-color: #eee;
+	border: 20px solid #eee;
+}
+
+#headimg {
+	width: 610px;
+	border: 20px solid #fff;
+	background-color: #fff;
+}
+
+#menu {
+	width: 610px;
+	padding-left: 20px;
+	padding-right: 20px;
+	padding-bottom: 30px;
+	background-color: #fff;
+	list-style: none;
+	margin: 0;
+}
+
+#main {
+	float: left;
+	margin-top: 15px;
+	margin-bottom: 15px;
+	width: 390px;
+	background-color: #fff;
+	padding: 20px;
+}
+
+#side {
+	float: right;
+	width: 200px;
+	background-color: #eee;
+}
+
+#foot {
+	clear: both;
+	width: 610px;
+	padding: 20px;
+	background-color: #fff;
+}
+
+
+/* MAIN MENU
+-----------------------------------*/
+
+#menu li {
+	float: left;
+	vertical-align: middle;
+}
+
+#menu li a {
+	display: block;
+	background-color: #fff;
+	width: 80px;
+	text-transform: uppercase;
+	color: #6076cc;
+	text-decoration: none;
+	height: 15px;
+	vertical-align: middle;
+}
+
+#menu li a:hover {
+	display: block;
+	width: 80px;
+	text-transform: uppercase;
+	color: #3b4878;
+	text-decoration: none;
+	background-color: #fff;
+	border-bottom: 1px solid #6076cc;
+	vertical-align: middle;
+}
+
+#amenu li a {
+	height: 15px;
+	color: #6076cc;
+	width: 80px;
+	background-color: #fff;
+	border-bottom: 1px solid #6076cc;
+	vertical-align: middle;
+}
+
+#amenu li a:hover {
+	height: 15px;
+	color: #3b4878;
+	width: 80px;
+	background-color: #fff;
+	border-bottom: 1px solid #6076cc;
+	vertical-align: middle;
+}
+
+#navigation {
+	float: left;
+}
+
+#feed {
+	float: right;
+	padding-bottom: 10px;
+	text-align:right;
+}
+
+#feed img {
+	border: 0px;
+}
+
+
+
+/* HEADINGS 
+-----------------------------------*/
+.entry h2 {
+        color:#333;
+        font-family: Georgia, serif;
+	font-size: 18px;
+	text-decoration: none;
+	font-weight: normal;
+}
+
+h1, h1 a, h2, h2 a, h3 a, h4 a {
+	color:#6076cc;
+	font-family: Georgia, serif;
+	font-size: 18px;
+	text-decoration: none;
+	font-weight: normal;
+}
+
+h1 a:hover, h2 a:hover, h3 a:hover, h4 a:hover {
+	color:#3b4878;
+	font-family: Georgia, serif;
+	font-size: 18px;
+	text-decoration: none;
+	font-weight: normal;
+}
+
+#box {
+	font-size: 11px;
+	font-family: Verdana, Arial Helvetica, "sans serif";
+	color: #555;
+	margin-top: 15px;
+	margin-bottom: 15px;
+	width: 160px;
+	background-color: #fff;
+	padding: 20px;
+	list-style: none;
+}
+
+#centered {
+	margin: 0 auto;
+	text-align: center;
+}
+
+#centered #s {
+	background-color: #fff;
+	border: 1px solid #ccc;
+	color: #666;
+}
+
+#centered:hover {
+	color: #666;
+}
+
+#centered a {
+	color: #6076cc;
+	text-decoration: none;
+}
+
+#centered a:hover {
+
+	color: #3b4878;
+	text-decoration: none;
+}
+
+#centered2 {
+
+	color: #999;
+	margin: 0 auto;
+	text-align: center;
+}
+
+#centered2 a {
+	color: #6076cc;
+	text-decoration: none;
+}
+
+#centered2 a:hover {
+	color: #3b4878;
+	text-decoration: none;
+}
+
+
+#box h3 {
+	color:#666666;
+	font-family: Georgia, serif;
+	font-size: 14px;
+	text-decoration: none;
+	font-weight: normal;
+	text-align: right;
+	margin: 2px;
+}
+
+#box li {
+	padding: 5px;
+	width: 100%;
+	border-bottom: 1px dotted #ccc;
+}
+
+#box li:hover {
+	color: #666;
+	background-color: #fafafa;
+	border-bottom: 1px solid #ccc;
+}
+
+#box li a {
+	color: #6076cc;
+}
+
+#box li a:hover {
+	color: #3b4878;
+}
+
+#box ul {
+	list-style: none;
+	margin: 0;
+	padding: 0;
+}
+
+#boxx {
+	font-size: 11px;
+	font-family: Verdana, Arial Helvetica, "sans serif";
+	color: #999;
+	margin-top: 15px;
+	margin-bottom: 15px;
+	width: 160px;
+	background-color: #fff;
+	padding: 20px;
+	list-style: lower-roman;
+}
+
+#boxx h3 {
+	color:#666666;
+	font-family: Georgia, serif;
+	font-size: 14px;
+	text-decoration: none;
+	font-weight: normal;
+	text-align: right;
+	margin: 2px;
+}
+
+#boxx li {
+	padding: 5px;
+	width: 100%;
+	border-bottom: 1px dotted #ccc;
+}
+
+#boxx li:hover {
+	background-color: #fafafa;
+	border-bottom: 1px solid #ccc;
+}
+
+#boxx li a {
+	color: #666;
+}
+
+#boxx li a:hover {
+	color: #333;
+}
+
+#boxx ul {
+	list-style: lower-roman;
+	margin: 0;
+	margin-left: 5px;
+	padding: 0;
+}
+
+
+
+
+/* LINKS
+-----------------------------------*/
+a {
+	text-decoration: none;
+}
+
+a:hover {
+        color: #3b4878;
+	text-decoration: none;
+}
+
+
+a img {
+	border: 1px solid #6076cc;
+	padding: 3px;
+}
+
+a:hover img {
+
+       border: 1px solid #3b4878;
+}
+
+
+
+/* COMMENTS
+-----------------------------------*/
+
+#comments a {
+	color: #666;
+}
+
+#comments a:hover {
+	color: #6076cc;
+}
+
+#comments ul {
+	margin: 0;
+	padding: 0;
+}
+
+#comments li {
+	list-style-type: none;
+	background-color: #fafafa;
+	border: 1px solid #f3f4f4;
+	padding-bottom: 3px;
+	margin-bottom: 6px;
+}
+
+.header {
+	padding: 4px;
+	background: #f3f4f4;
+}
+
+#comments fieldset {
+	border: 0px;
+}
+
+
+
+/* ENTRY
+------------------------------------*/
+
+.entry img {
+	background-color: #fafafa;
+	border: 1px solid #6076cc;
+	padding: 5px;
+}
+
+.entry {
+	padding-bottom: 40px;
+	text-align: justify;
+}
+
+.entry a {
+	color: #666;
+        border-bottom:1px solid #6076cc;
+}
+
+.entry a:hover {
+	color: #333;
+}
+
+.info {
+	background-color: #eee;
+}
+
+.entry .info {
+	padding: 5px;
+	padding-left:15px;
+	background: url("images/post.gif") center left no-repeat;
+	background-color: #fafafa;
+	border: 1px solid #f3f4f4;
+}
+
+.entry .info a {
+	color: #949494;
+}
+
+.entry .info a:hover {
+	color: #666;
+}
+
+.hidetxt {
+	color: #fff;
+}
+
+.entry blockquote {
+        border:1px solid #bbb;
+        margin: 15px 0px 15px 0px;
+	padding: 15px;
+	background-color: #fafafa;
+}
+
+.entry li {
+	list-style-type: circle;
+}
+
+label {
+	width: 60px;
+	float: left;
+}
+
+#author, #email, #url, #comment, #comments #submit {
+	background-color: #fff;
+	border: 1px solid #ccc;
+	color: #666;
+}
+
+/* SEARCH
+-------------------------------------------*/
+
+#search {
+	border: 0px;
+}
+
+#searchbutton {
+	background-color: #fff;
+	border: 1px solid #999;
+}
+
+hr {
+color: #fff;
+background-color: #fff;
+height: 10px;
+border: none 0; 
+border-bottom: 1px dotted #ccc;
+}
+
+.para {
+ display:block;
+ padding:15px;
+ margin:0;
+ margin-top:20px;
+ background-color:#fbfbfb;
+ border:1px dotted #CCC;
+ height:50px;
+color:#000;
+}
+
+.para:hover {
+background-color:#f4f6fb;
+border:1px dotted #8b9bd9;
+}
+
+.para a {
+text-decoration:none;
+border:0;
+}
